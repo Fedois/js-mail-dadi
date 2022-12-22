@@ -4,7 +4,7 @@ console.log('iscritti', iscritti, typeof iscritti);
 const utente = prompt('inserisci la tua email per accedere:');
 console.log('email inserita: ', utente)
 
-if(utente == iscritti[0] || iscritti[1] || iscritti[2]){
+if(utente == (iscritti[0] || iscritti[1])){
     alert('puoi accedere')
 }
 else{
