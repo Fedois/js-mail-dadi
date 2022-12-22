@@ -1,14 +1,19 @@
-const iscritti = ["Luca@mail.com", "Marco@mail.com", "Paolo@mail.com"];
+const iscritti = ["Luca", "Marco", "Paolo"];
 console.log('iscritti', iscritti, typeof iscritti);
 
 const utente = prompt('inserisci la tua email per accedere:');
 console.log('email inserita: ', utente)
 
-if(utente == (iscritti[0] || iscritti[1])){
-    alert('puoi accedere')
+for(let i = 0; i < iscritti.length; i++)
+
+if(utente == iscritti[i]){
+   alert('puoi accedere')
+   i == iscritti.length + 1;
+//    break;
+
 }
-else{
-    alert('non sei nella lista. non puoi accedere')
+else if(i == iscritti.lenght){
+   alert('non sei nella lista. non puoi accedere');
 }
 
 
