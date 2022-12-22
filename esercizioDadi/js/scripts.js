@@ -1,8 +1,11 @@
-const utente = Math.random();
-console.log('utente: ', Math.floor(utente * 6) + 1);
 
-const computer = Math.random();
-console.log('computer: ', Math.floor(computer * 6) + 1);
+let utente = Math.random();
+utente = Math.floor((utente * 6) + 1)
+console.log('utente: ', utente)
+
+let computer = Math.random();
+computer = Math.floor((computer * 6) + 1);
+console.log('computer: ', computer);
 
 if(utente > computer){
     console.log('vince utente');

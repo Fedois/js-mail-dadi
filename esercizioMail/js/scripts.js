@@ -12,7 +12,7 @@ if(utente == iscritti[i]){
 //    break;
 
 }
-else if(i == iscritti.lenght){
+else if(i == iscritti.length - 1){
    alert('non sei nella lista. non puoi accedere');
 }
 
