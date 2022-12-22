@@ -1,4 +1,4 @@
-const iscritti = ["Luca", "Marco", "Paolo"];
+const iscritti = ["Luca@mail.com", "Marco@mail.com", "Paolo@mail.com"];
 console.log('iscritti', iscritti, typeof iscritti);
 
 const utente = prompt('inserisci la tua email per accedere:');
